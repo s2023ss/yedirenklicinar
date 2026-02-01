@@ -9,3 +9,6 @@ cmds = ["npx turbo run build --filter=web"]
 
 [start]
 cmd = "npx serve -s apps/web/dist -p 3000"
+
+[variables]
+VITE_SUPABASE_URL = "https://supabase.yedirenklicinar.digitalalem.com"
