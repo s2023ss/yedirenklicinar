@@ -1,0 +1,13 @@
+export { Dashboard } from './Dashboard';
+export { QuestionBank } from './QuestionBank';
+export { QuestionCreate } from './QuestionCreate';
+export { QuestionEdit } from './QuestionEdit';
+export { Exams } from './Exams';
+export { ExamCreate } from './ExamCreate';
+export { Users } from './Users';
+export { AcademicStructure } from './AcademicStructure';
+export { CourseDetail } from './CourseDetail';
+export { StudentExams } from './StudentExams';
+export { QuizSolve } from './QuizSolve';
+export { Login } from './Login';
+export { QuestionBulkUpload } from './QuestionBulkUpload';
