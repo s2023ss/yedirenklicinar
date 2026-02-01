@@ -1,0 +1,11 @@
+[phases.setup]
+nixPkgs = ["nodejs_18", "npm-9_x"]
+
+[phases.install]
+cmds = ["npm ci", "npm install -g serve"]
+
+[phases.build]
+cmds = ["npx turbo run build --filter=web"]
+
+[start]
+cmd = "serve -s apps/web/dist -l $PORT"
